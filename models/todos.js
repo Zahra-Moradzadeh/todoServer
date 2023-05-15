@@ -9,7 +9,6 @@ const TodoSchema = new Schema({
     maxlength: [20, "your title should be 20 character"],
   },
   deadline: Date,
-  category: String,
 });
 
 module.exports = model("todos", TodoSchema);
